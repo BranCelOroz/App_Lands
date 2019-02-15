@@ -19,7 +19,7 @@
                 return new Response
                 {
                     IsSuccess = false,
-                    Message = "Please turn on your internet settings.",
+                    Message = "Por Favor Encienda Su Conexión a Internet.",
                 };
             }
 
@@ -30,7 +30,7 @@
                 return new Response
                 {
                     IsSuccess = false,
-                    Message = "Verifica tu conexion a internet.",
+                    Message = "Verifica Tu Conexion a internet.",
                 };
             }
 

@@ -5,7 +5,7 @@
     x:Class="lands.Views.BordersPage"
     BindingContext="{Binding Main, Source={StaticResource Locator }}"
     Icon="ic_stat_language"
-    Title="Borders">
+    Title="Limites">
     <ContentPage.Content>
         <StackLayout
             BindingContext="{Binding Land}"
