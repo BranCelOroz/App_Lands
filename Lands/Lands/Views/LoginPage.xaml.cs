@@ -1,4 +1,5 @@
-﻿using System;
+﻿using lands.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,13 @@ namespace lands.Views
 		public LoginPage ()
 		{
 			InitializeComponent ();
+            btnir.Clicked += Btnir_Clicked;
 		}
-	}
+
+        public void Btnir_Clicked(object sender, EventArgs e)
+        {
+            MainViewModel.GetInstance().Lands = new LandsViewModel();
+            Application.Current.MainPage.Navigation.PushAsync(new LandsPage());
+        }
+    }
 }

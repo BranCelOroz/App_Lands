@@ -5,7 +5,7 @@
     x:Class="lands.Views.CurrenciesPage"
     BindingContext="{Binding Main, Source={StaticResource Locator}}"
        Icon="ic_stat_monetization_on"
-    Title="Currencies">
+    Title="Monedas">
     <ContentPage.Content>
         <StackLayout
             BindingContext="{Binding Land}"
